@@ -1,0 +1,30 @@
+[
+	{
+		"rule": "timestamp: [timestamp], hostname: [hostname], signatureid: [signature_id]",
+		"parameters": [{
+				"type": "event",
+				"value": "timestamp"
+			}, {
+				"type": "http",
+				"value": "hostname"
+			}, {
+				"type": "alert",
+				"value": "signature_id"
+			}
+		]
+	},
+	{
+		"rule": "hostname: [hostname], signatureid: [signature_id], srcip: [src_ip]",
+		"parameters": [{
+				"type": "http",
+				"value": "hostname"
+			}, {
+				"type": "alert",
+				"value": "signature_id"
+			}, {
+				"type": "event",
+				"value": "src_ip"
+			}
+		]
+	}
+]

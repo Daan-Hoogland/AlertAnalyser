@@ -1,0 +1,10 @@
+{
+  "class_location": "/home/dan/.AlertAnalyser/classes/",
+  "template_location": "/home/dan/.AlertAnalyser/templates/",
+  "reload_interval": 1,
+  "socket_hostname": "localhost",
+  "socket_port": 3232,
+  "signature_configurations": {
+    "2000419": ["TestClass"]
+  }
+}
